@@ -1,0 +1,47 @@
+#navstyle{
+  padding: 5px;
+}
+
+#navtitle{
+  color:  #990099;
+}
+
+.toppadding{
+  padding-top: 30px;
+}
+
+.background{
+  background-color: #fff9d6;
+}
+
+#contentheader{
+  text-align: center;
+  font-style: italic;
+  color: #ff3333;
+}
+
+.col-md-6{
+  background-color: #d6d6d6;
+  opacity: 0.8;
+}
+
+.Article-Title{
+  text-align: center;
+  font-style: oblique;
+}
+.articlebox{
+  border: 2px solid #ff00a9;
+}
+
+
+ .hidden{
+   display: none;
+ }
+
+.borderplus{
+  border: 8px solid #66ff99;
+}
+
+.invertColor{
+  -webkit-filter: invert(1.0);
+}

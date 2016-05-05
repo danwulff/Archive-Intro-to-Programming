@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+
+.formatting {
+
+}
+
+.hidden {
+  display: none;
+}
+
+.vivid{
+  font-weight: bolder;
+  font-size: 30px;
+  color: blue;
+}
+
+.vivid2{
+  font-weight: bolder;
+  font-size: 30px;
+  color: red;
+}
+
+.vivid3{
+  font-weight: bolder;
+  font-size: 30px;
+  color: green;
+}

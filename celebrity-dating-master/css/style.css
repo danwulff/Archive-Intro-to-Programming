@@ -1,0 +1,23 @@
+h1 {
+  font-family: Dosis;
+  font-size: 75px;
+  color: magenta;
+  margin: 25px;
+}
+
+h2 {
+  color: magenta;
+  margin: 30px;
+  font-size: 24px;
+  font-family: Dosis;
+}
+
+.celebTitle {
+  background-color: magenta;
+  color: white;
+    font-family: Dosis;
+}
+
+.celebrities h1 {
+  display: none;
+}
