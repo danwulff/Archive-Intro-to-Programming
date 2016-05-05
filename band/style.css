@@ -1,0 +1,25 @@
+.main {
+}
+
+.pictures {
+  float: left;
+  clear: left;
+}
+
+.pictures2 {
+  float: right;
+}
+
+.sidebar {
+  float: right;
+  background-color: tan;
+  border: 2px solid green;
+  padding: 5px;
+  margin: 20px;
+  clear:right;
+}
+
+.img1 {
+  float:left;
+  padding: 10px;
+}

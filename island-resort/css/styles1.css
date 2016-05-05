@@ -1,0 +1,28 @@
+body {
+    font-family: fantasy;
+    background-color: #fde5a2;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 3px grey;
+  font-style: oblique;
+}
+
+p {
+  text-align: center;
+  font-style: oblique;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+  font-style: oblique;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+  font-style: normal;
+  font-size: 18px;
+}

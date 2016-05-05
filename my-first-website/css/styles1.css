@@ -1,0 +1,14 @@
+h1 {
+  color: #900;
+  text-align:center;
+  font-size: 60px;
+}
+
+ul {
+  font-weight: bold;
+  color: red;
+}
+
+p {
+  font-style: italic;
+}

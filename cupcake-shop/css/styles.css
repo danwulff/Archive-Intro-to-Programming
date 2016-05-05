@@ -1,0 +1,83 @@
+h1 {
+  text-align: center;
+}
+
+body.blog {
+  background-color: white;
+}
+
+.flashy {
+  color: red;
+  font-style: italic;
+}
+
+body {
+  background-color: #7ec0ee;
+  text-align: center;
+}
+ul {
+  position: relative;
+  text-align: left;
+  left: 400px;
+}
+
+.best {
+  color: green;
+  font-weight: bold;
+}
+
+.intro {
+  font-weight:bold;
+  font-style: italic;
+  text-align: left;
+}
+
+.blog-post-high {
+  text-align: left;
+  color: blue;
+  width: 80%;
+  margin-bottom: 100px;
+  background-color: orange;
+}
+
+.blog-post-low {
+  text-align: right;
+  color: yellow;
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: blue;
+}
+
+.about{
+  color: green;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.resume-stuff {
+  text-align: left;
+  font-family: helvetica;
+  margin-right: 20%;
+}
+
+.skills {
+
+  text-align: left;
+  position: relative;
+  left: 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.detail {
+  font-style: italic;
+}
+
+.pics {
+  padding: 20px;
+  width: 400px;
+}

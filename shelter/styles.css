@@ -1,0 +1,14 @@
+.1 {
+float: left; padding: 50px; background-color: red;}
+
+.2 {
+float: left;   margin: 0 auto;
+  display: inline-block; padding: 50px; background-color: orange;}
+.3 {
+float: left;   margin: 0 auto;
+  display: inline-block; padding: 50px; background-color: yellow;}
+.4 {
+float: left;   margin: 0 auto;
+  display: inline-block; padding: 50px; background-color: green;}
+.5 {
+float: right; padding: 50px; background-color: blue;}
