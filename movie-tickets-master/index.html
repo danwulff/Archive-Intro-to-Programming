@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <!--Container-->
+    <div class="container">
+      <h1>Movie Tickets!</h1>
+      <!--Row-->
+      <div class="row">
+        <div id="blank">
+          <form class="col-md-6">
+            <!--Two drop down menus; movie name, showtime-->
+            <div>
+              <label for="movieName">Movie</label>
+              <select id="movieName" class="form-control">
+                <option value="new-release">Batman vs Superman</option>
+                <option value="new-release">Zootopia</option>
+                <option value="regular">The Boss</option>
+                <option value="regular">Deadpool</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="showtime">Showtime</label>
+              <select id="showtime" class="form-control">
+                <option value="1300">1:00 pm</option>
+                <option value="1630">4:30 pm</option>
+                <option value="1800">6:00 pm</option>
+                <option value="1930">7:30 pm</option>
+              </select>
+            </div>
+
+            <!--How many tickets?-->
+            <div class="row">
+              <h4>How many tickets?</h4>
+              <div class="col-md-2">
+                <label for="regularAmount">Regular </label>
+                <select id="regularAmount" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="childAmount">Child/Student (under 17) </label>
+                <select id="childAmount" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <label for="seniorAmount">Senior (75yr+) </label>
+                <select id="seniorAmount" >
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </div>
+            </div>
+            <br>
+            <!--submit button-->
+            <button type="submit" class="btn btn-success">Find My Total Cost</button>
+          </form>
+        </div>
+
+        <!--Show cost-->
+        <div id="cost">
+          <h3>Total cost: <span id="totalCost"></span></h3>
+        </div>
+
+      </div>
+      <!--End: Row-->
+    </div>
+    <!--End: Container-->
+  </body>
+</html>

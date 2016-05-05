@@ -1,0 +1,11 @@
+div {
+  margin-top: 7px;
+}
+
+h3, h4 {
+  padding-left: 15px;
+}
+
+#cost {
+  display: none;
+}
